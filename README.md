@@ -1,8 +1,21 @@
 # Linear_metabolic_pathway_optimization_and_control
-MATLAB scripts simulating the optimization and control in linear metabolic pathway under first order or Michaelis-Menten rate law
 
-## First_order/compare_flux_efficiency_control_efficiency.m
-Main script simulating the Pareto front balancing flux efficiency and control efficiency for glycolysis and TCA cycle. The reactions were assumed to follow the first order rate law. Parameter values were set based on measurements in literature.
+This repository contains MATLAB codes for simulating enzyme allocation, flux efficiency, and flux-control trade-offs in linear metabolic pathways under different rate laws.
 
-## Michaelis_Menten/RandSample_Linear.m
-Main script simulating the maximal flux efficiency solution for linear metabolic pathway under Michaelis-Menten rate law. Parameter values were randomly sampled from literature-based values.
+---
+
+## First_order
+
+Codes simulating flux-control trade-off under first-order kinetics.
+
+- compare_flux_efficiency_control_efficiency.m
+  Computes Pareto front balancing flux efficiency and control efficiency for glycolysis and TCA cycle under first-order kinetics. Parameter values are based on literature.
+
+---
+
+## Michaelis_Menten
+
+Codes simulating maximal flux efficiency solution under Michaelis-Menten kinetics.
+
+- RandSample_Linear.m
+  Simulates enzyme allocation profiles maximizing pathway flux under Michaelis-Menten kinetics. Parameters are sampled from literature-based values.
